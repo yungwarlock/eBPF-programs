@@ -30,6 +30,11 @@ SSH into Colima profile
 colima ssh -p ebpf
 ```
 
+Install eBPF dependencies
+```
+./ebpf_setup.sh
+```
+
 You can then `cd` into any directory and execute your eBPF program of choice in sudo mode.
 
 Example:
